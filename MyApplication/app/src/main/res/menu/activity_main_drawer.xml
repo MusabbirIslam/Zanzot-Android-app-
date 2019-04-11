@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_prediction"
+            android:icon="@drawable/ic_astrology"
+            android:title="Prediction" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_report_problem_black_24dp"
+            android:title="Report" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="Feedback" />
+    </group>
+
+
+</menu>
